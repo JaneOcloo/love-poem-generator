@@ -19,6 +19,7 @@ form {
   padding: 30px;
   border-radius: 10px;
   display: flex;
+  align-items: center;
 }
 .instruction {
   padding: 16px;
@@ -26,7 +27,7 @@ form {
 }
 .submit-button {
   margin-left: 10px;
-  color: antiquewhite;
+  color: rgb(70, 129, 196);
   padding: 14px 24px;
   border-radius: 50px;
   background: rgb(97, 141, 199);
