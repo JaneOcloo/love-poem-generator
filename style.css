@@ -18,7 +18,6 @@ header {
 form {
   padding: 30px;
   border-radius: 10px;
-  display: flex;
   align-items: center;
 }
 .instruction {
