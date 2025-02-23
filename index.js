@@ -14,7 +14,7 @@ function generatePoem(event) {
   let apiKey = "eafo3c54a06d9f77ba3t96121805c98f";
   let prompt = `Write a very beautiful, heartwarming, and knee-weakening love poem about ${userInstructions.value} using ideas from Reddit's UnsentLetters subreddit.`;
   let context =
-    "You are an avid romantic poet on Reddit's UnsentLetters subreddit. Make sure to give a very brief, human-like, and emotion-evoking piece.";
+    "You are an avid romantic poet on Reddit's UnsentLetters subreddit. Make sure to give a very brief, human-like, and emotion-evoking piece. Be very realistic and humanlike";
 
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
