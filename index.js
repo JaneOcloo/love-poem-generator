@@ -4,8 +4,8 @@ function generatePoem(event) {
   event.preventDefault();
   let poemElement = document.querySelector("#content");
 
-  new Typewriter("#poem", {
-    strings: "La tombe dit à la rose",
+  new Typewriter("#content", {
+    strings: "The poem💕👣💕",
     autoStart: true,
     delay: 1,
     cursor: "",
