@@ -26,10 +26,17 @@ form {
 }
 .submit-button {
   margin-left: 10px;
-  color: rgb(70, 129, 196);
+  color: rgb(16, 32, 51);
   padding: 14px 24px;
+  font-weight: bold;
   border-radius: 50px;
+  text-emphasis-color: black;
   background: rgb(97, 141, 199);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background: rgb(60, 110, 180);
 }
 .born {
   font-size: 16px;
@@ -46,4 +53,144 @@ footer {
 }
 a {
   color: cadetblue;
+}
+.ux {
+  font-weight: lighter;
+  text-align: left;
+  padding-left: 95px;
+  color: rgb(37, 35, 35);
+  opacity: 0.6;
+}
+.loading {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(251, 255, 18);
+  margin: 10px 0;
+}
+.copy-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+.mic-button {
+  padding: 12px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.mic-button:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+.mic-button:active {
+  transform: scale(0.95);
+}
+.response-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: none; /* Hidden initially */
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.response-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.love-theme {
+  background-color: #ffe0e9; /* Soft pink */
+  color: #d81b60;
+  border-left: 5px solid #d81b60;
+}
+
+.sad-theme {
+  background-color: #dfe6e9; /* Soft gray */
+  color: #2d3436;
+  border-left: 5px solid #2d3436;
+}
+
+.night-theme {
+  background-color: #0d47a1; /* Deep blue */
+  color: #ffffff;
+  border-left: 5px solid #ffffff;
+}
+.love-theme {
+  background-color: #ffcad4;
+  color: #a00036;
+  border-left: 5px solid #a00036;
+  box-shadow: 0px 0px 10px rgba(255, 0, 100, 0.5);
+}
+
+.night-theme {
+  background-color: #1e1e2e;
+  color: #b0b3d6;
+  border-left: 5px solid #6b6b9e;
+  box-shadow: 0px 0px 15px rgba(50, 50, 80, 0.8);
+}
+
+.sad-theme {
+  background-color: #dfe6e9;
+  color: #2d3436;
+  border-left: 5px solid #2d3436;
+  box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.3);
+}
+
+.happy-theme {
+  background-color: #ffed85;
+  color: #705300;
+  border-left: 5px solid #705300;
+  box-shadow: 0px 0px 10px rgba(255, 200, 50, 0.7);
+}
+
+.mystery-theme {
+  background-color: #3c3c6e;
+  color: #e5e5e5;
+  box-shadow: 0px 0px 15px rgba(80, 80, 160, 0.8);
+  border-left: 5px solid #b39ddb;
+}
+
+.dreamy-theme {
+  background-color: #b39ddb;
+  color: #3e206d;
+  border-left: 5px solid #6b47a3;
+  box-shadow: 0px 0px 15px rgba(150, 100, 255, 0.7);
+}
+
+.default-theme {
+  background-color: #ffffff;
+  color: #000000;
+  border-left: 5px solid #cccccc;
 }

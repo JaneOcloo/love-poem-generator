@@ -16,16 +16,28 @@
           <div class="born">
             <input
               type="text"
-              placeholder="Enter the topic"
+              placeholder="e.g. First love, Unspoken words, Midnight thoughts..."
               autofocus
               required
               class="instruction"
               id="user-instructions"
             />
+            <button type="button" id="mic-button" class="mic-button">🎤</button>
             <input type="submit" class="submit-button" />
+
+            <div id="loading" style="display: none">⌛ ...</div>
+
             <div id="content"></div>
+            <button id="copy-button" class="copy-button">📋</button>
+          </div>
+          <div class="ux"></div>
+          <div id="response-box" class="response-box">
+            <h2 class="response-title">💕(✿◕‿◕✿)💕</h2>
+            <div id="poem-content"></div>
           </div>
         </form>
+
+        <p id="copy-status"></p>
       </main>
       <footer>
         This project was coded by
